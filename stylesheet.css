@@ -1,0 +1,141 @@
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: "helvetica";
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+h1:hover {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "helvetica";
+  font-style: normal;
+}
+
+ul.projects {
+  left: 50px;
+  width: 100%;
+  position:relative;
+  list-style-type: none;
+}
+
+li.projects {
+  font-family: "Helvetica", sans-serif;
+  font-size: 12pt;
+  margin-bottom: 12pt;
+}
+
+li.projects:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type:none;
+  width: 300px;
+}
+
+li {
+    font-family: "helvetica", sans-serif;
+    font-size: 20px;
+    color:#000;
+    left: 0;
+}
+/* unvisited link */
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+a.menub:hover {
+    text-decoration: line-through;
+    color: #000;
+}
+
+/* selected link */
+a.menub:active {
+    color: rgba(85, 125, 236, 0.83);
+}
+
+a:hover {
+  text-decoration-color: rgba(62, 136, 79, 0.95);
+}
+
+.menu {
+      width: 33%;
+      overflow: auto;
+      top: 40px;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      background-color: #fff;
+      position: fixed;
+}
+
+.notmenu{
+  position:fixed;
+  width: 100%;
+  left: 215px;
+  top: 40px;
+}
+
+.header{
+  height: 40px;
+  background-color: #000;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.text {
+  width: 33%;
+  position: fixed;
+  justify-content: stretch;
+  font-size: 14pt;
+  font-family: "helvetica", sans-serif;
+}
+
+.hideout {
+  left: 33%;
+  position: relative;
+  font-family: "Helvetica", sans-serif;
+  font-size: 12pt;
+  padding-top:24px;
+  padding-left: 24px;
+  width:33%;
+}
+.moreinfo {
+  font-size: 12pt;
+  font-family: "Helvetica", Times, serif;
+}
+
+a.clickme {
+  color: rgba(153, 178, 173, 0.80);
+}
+
+a.clickme:hover {
+  color: rgba(153, 178, 173, 0.95);
+}
+
+.header:hover {
+  background-color: rgba(62, 136, 79, 0.75);
+}
+
+a.clickmeuncolored:hover {
+  color: #000;
+}
